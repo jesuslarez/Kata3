@@ -5,17 +5,12 @@
  */
 package kata3;
 
-import java.util.List;
 import kata3.view.HistogramDisplay;
-import kata3.model.Histogram;
 public class Kata3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        HistogramDisplay display = new HistogramDisplay();//O
-        display.execute(); //O
+        HistogramDisplay display = new HistogramDisplay();
+        display.execute();
     }
     
 }
